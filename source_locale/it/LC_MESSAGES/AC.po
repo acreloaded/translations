@@ -1,0 +1,878 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Italian Language ACR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-31 17:53+0100\n"
+"PO-Revision-Date: 2015-01-31 20:33+0100\n"
+"Last-Translator: M0Rf30 <morf3089@gmail.com>\n"
+"Language-Team:  <morf3089@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.3\n"
+
+#: client.cpp:20
+msgid "operation not available in multiplayer"
+msgstr "operazione non disponibile in multiplayer"
+
+#: client.cpp:28
+msgid ""
+"editing in multiplayer requires coopedit mode (/coop or /mode 1) or /"
+"edithack 1"
+msgstr ""
+"editing in multiplayer richiede modialità editing cooperativo (/coop o /mode "
+"1) o /edithack 1"
+
+#: client.cpp:70 client.cpp:186
+msgid "aborting connection attempt"
+msgstr "annullamento tentativo di connessione"
+
+#: client.cpp:80
+#, c-format
+msgid "%c2attempting to connect to %c5%s%c4:%d%c2"
+msgstr "%c2tentativo di connessione a %c5%s%c4:%d%c2"
+
+#: client.cpp:83
+#, c-format
+msgid "%c2could %c3not resolve%c2 server %c5%s%c2"
+msgstr "%c2impossibile %c3risolvere%c2 server %c5%s%c2"
+
+#: client.cpp:90
+#, c-format
+msgid "%c2attempting to connect over %c1LAN%c2"
+msgstr "%c2tentativo di connessione su %c1LAN%c2"
+
+#: client.cpp:106
+#, c-format
+msgid "%c2could %c3not connect%c2 to server"
+msgstr "%c2impossibile%c3connettersi%c2 al server"
+
+#: client.cpp:154
+msgid "disconnected"
+msgstr "disconnesso"
+
+#: client.cpp:192
+msgid "not connected"
+msgstr "non connesso"
+
+#: client.cpp:195 client.cpp:690
+msgid "attempting to disconnect..."
+msgstr "tentativo di disconnessione..."
+
+#: client.cpp:221
+msgid "spam_detected"
+msgstr "spam_rilevato"
+
+#: client.cpp:657
+msgid "attempting to connect..."
+msgstr "tentativo di connessione..."
+
+#: client.cpp:662 client.cpp:703
+#, c-format
+msgid "%c3could not connect to server"
+msgstr "%c3impossibile connettersi al server"
+
+#: client.cpp:675
+msgid "connected to server"
+msgstr "connesso al server"
+
+#: client.cpp:708
+#, c-format
+msgid "%c3server network error, disconnecting (%s) ..."
+msgstr "%c3errore di rete del server, disconnessione (%s) .."
+
+#: client.cpp:732
+#, c-format
+msgid ""
+"%c3map %c4%s%c3 is secured, this means you CAN'T send, receive or overwrite "
+"it"
+msgstr ""
+"%c3mappa %c4%s%c3 protetta, ciò significa che NON PUOI inviarla, ottenerla o "
+"sovrascriverla"
+
+#: client.cpp:735
+#, c-format
+msgid ""
+"%c3if you get this error alot you or the server may be running an outdated "
+"game"
+msgstr ""
+"%c3se ottieni questo errore il tuo client o il server richiedono un "
+"aggiornamento"
+
+#: client.cpp:736
+#, c-format
+msgid "%c3you may check for updates at %c1http://acr.victorz.ca"
+msgstr "%c3per aggiornamenti, controlla qui %c1http://acr.victorz.ca"
+
+#: client.cpp:766
+#, c-format
+msgid "map %s is too large to send"
+msgstr "mappa %s troppo grande da inviare"
+
+#: client.cpp:780
+#, c-format
+msgid "sending map %s to server..."
+msgstr "invio mappa %s al server..."
+
+#: client.cpp:788
+msgid "requesting map from server..."
+msgstr "richiesta mappa dal server..."
+
+#: client.cpp:818
+msgid "getting demo..."
+msgstr "prelievo demo..."
+
+#: client.cpp:819
+#, c-format
+msgid "getting demo %d..."
+msgstr "prelievo demo %d..."
+
+#: client.cpp:825
+msgid "listing demos..."
+msgstr "elenco demo..."
+
+#: client.cpp:906
+msgid "\f3could not init cURL, content downloads not available"
+msgstr "\f3impossibile usare cURL, contenuto scaricabile non disponibile"
+
+#: client.cpp:989
+#, c-format
+msgid ""
+"downloading package %d out of %d...\n"
+"%s %.0f/%.0f KB (%.1f%%)\n"
+"(ESC to cancel)"
+msgstr ""
+"trasferimento pacchetto %d di %d...\n"
+"%s %.0f/%.0f KB (%.1f%%)\n"
+"(ESC per cancellare)"
+
+#: client.cpp:1013
+msgid "\f3failed to install"
+msgstr "\f3installazione fallita"
+
+#: client.cpp:1032
+#, c-format
+msgid "could not install package %s"
+msgstr "impossibile installare pacchetto %s"
+
+#: client.cpp:1048
+#, c-format
+msgid "downloading %s from %s ..."
+msgstr "trasferimento %s da %s ..."
+
+#: client.cpp:1079
+#, c-format
+msgid "\f3could not connect to %s"
+msgstr "\f3impossibile connettersi a %s"
+
+#: client.cpp:1086
+msgid "\f3no more servers to connect to"
+msgstr "\f3nessun altro server a cui connettersi"
+
+#: client.cpp:1102
+msgid "\f3download cancelled"
+msgstr "\f3trasferimento cancellato"
+
+#: client.cpp:1103
+#, c-format
+msgid "\f2request for %s failed (cURL %d, HTTP %d)"
+msgstr "\f2richiesta per %s fallita (cURL %d, HTTP %d)"
+
+#: client.cpp:1145
+msgid "\f3no responsive source server found, can't download"
+msgstr "\f3nessun server attivo trovato, impossibile scaricare"
+
+#: clientgame.cpp:153
+#, c-format
+msgid "ignored players: %s"
+msgstr "giocatori ignorati: %s"
+
+#: clientgame.cpp:154
+msgid "no players were ignored."
+msgstr "nessuno giocatore è stato ignorato."
+
+#: clientgame.cpp:173
+#, c-format
+msgid "muted players: %s"
+msgstr "giocatori limitati: %s"
+
+#: clientgame.cpp:174
+msgid "no players were muted."
+msgstr "nessun giocatore è stato limitato."
+
+#: clientgame.cpp:205
+#, c-format
+msgid "your name is: %s"
+msgstr "il tuo nome è: %s"
+
+#: clientgame.cpp:227
+#, c-format
+msgid "%c3\"%s\" is not a valid team name (try CLA, RVSF or SPECTATOR)"
+msgstr ""
+"%c3\"%s\" non è un nome di squadra valido (prova CLA, RVSF o SPECTATOR)"
+
+#: clientgame.cpp:228
+msgid "you can't change team while editing"
+msgstr "non puoi cambiare squadra durante l'editing"
+
+#: clientgame.cpp:231
+#, c-format
+msgid "your team is: %s"
+msgstr "la tua squadra è: %s"
+
+#: clientgame.cpp:275
+msgid "not playing a demo"
+msgstr "non si tratta di una demo"
+
+#: clientgame.cpp:637
+msgid "1Next wave in"
+msgstr "1Prossima ondata in"
+
+#: clientgame.cpp:651
+msgid "FIGHT!"
+msgstr "COMBATTI!"
+
+#: clientgame.cpp:654
+msgid "READY!"
+msgstr "PRONTO!"
+
+#: clientgame.cpp:827
+msgid "invalid gun specified"
+msgstr "arma specificata non valida"
+
+#: clientgame.cpp:1014
+msgid "intermission:"
+msgstr "intervallo:"
+
+#: clientgame.cpp:1015
+msgid "game has ended!"
+msgstr "il gioco è terminato!"
+
+#: clientgame.cpp:1029
+#, c-format
+msgid "time remaining: %d minutes"
+msgstr "tempo rimanente: %d minuti"
+
+#: clientgame.cpp:1094
+#, c-format
+msgid "%c3invalid ctf-flag entity (%i as %d)"
+msgstr "%c3entità ctf-flag non valida (%i as %d)"
+
+#: clientgame.cpp:1190
+msgid ""
+"You cannot play in this map due to quality requisites. Please, report this "
+"incident."
+msgstr ""
+"Non puoi giocare in questa mappa a causa di requisiti qualitativi. Per "
+"favore, segnala questo inconveniente."
+
+#: clientgame.cpp:1205
+#, c-format
+msgid "game mode is \"%s\"%s"
+msgstr "modalità gioco: \"%s\"%s"
+
+#: clientgame.cpp:1503
+#, c-format
+msgid "%c3invalid vote"
+msgstr "%c3voto non valido"
+
+#: clientgame.cpp:1573
+#, c-format
+msgid "%s called a vote: %s"
+msgstr "%s richiede votazione: %s"
+
+#: clientgame.cpp:1583
+#, c-format
+msgid "%c3could not vote: %s"
+msgstr "%c3impossibile votare: %s"
+
+#: clients2c.cpp:47
+#, c-format
+msgid "%c3demo was recorded on map revision %d, you have map revision %d"
+msgstr ""
+"%c3demo registrata sulla revisione %d della mappa, tu hai la revisione %d"
+
+#: clients2c.cpp:67
+msgid "\"getmap\" to download the current map from the server"
+msgstr "\"getmap\" per ottenere la mappa attuale dal server"
+
+#: clients2c.cpp:68
+#, c-format
+msgid "\"getmap\" to download a %s version of the current map from the server"
+msgstr "\"getmap\" per ottenere la versione %s della mappa attuale dal server"
+
+#: clients2c.cpp:69
+msgid "different"
+msgstr "differente"
+
+#: clients2c.cpp:69
+msgid "newer"
+msgstr "più recente"
+
+#: clients2c.cpp:69
+msgid "older"
+msgstr "più vecchia"
+
+#: clients2c.cpp:359
+#, c-format
+msgid ""
+"%c3incompatible game protocol (local protocol: %d :: server protocol: %d)"
+msgstr ""
+"%c3protocollo gioco incompatibile (protocollo locale: %d :: protocollo "
+"server: %d)"
+
+#: clients2c.cpp:367
+msgid "INFO: this server is password protected"
+msgstr "INFO: questo server è protetto da password"
+
+#: clients2c.cpp:516
+#, c-format
+msgid "%c3please %c1get the map %c2by typing %c0/getmap"
+msgstr "%c3per favore %c1ottieni mappa %c2scrivendo %c0/getmap"
+
+#: clients2c.cpp:527
+#, c-format
+msgid "%s is now known as %s"
+msgstr "%s è conosciuto come %s"
+
+#: clients2c.cpp:580
+#, c-format
+msgid "connected: %s"
+msgstr "connesso: %s"
+
+#: clients2c.cpp:581
+#, c-format
+msgid "%s %c0joined %c2the %c1game"
+msgstr "%s %c0si è unito %c2al %c1gioco"
+
+#: clients2c.cpp:645
+#, c-format
+msgid "player %s disconnected (%s)"
+msgstr "giocatore %s disconnesso (%s)"
+
+#: clients2c.cpp:646
+#, c-format
+msgid "%s %c3left %c2the %c1game"
+msgstr "%s %c3ha abbandonato %c2il %c1gioco"
+
+#: clients2c.cpp:717
+msgid "map deemed unplayable - fix it before you can spawn"
+msgstr "mappa ritenuta instabile - revisionala prima del riarmo"
+
+#: clients2c.cpp:749
+msgid "new round starting... fight!"
+msgstr "nuova sfida iniziata... combatti!"
+
+#: clients2c.cpp:1022 server.h:786
+msgid "Assist"
+msgstr "Assisti"
+
+#: clients2c.cpp:1023
+msgid "SPLAT!"
+msgstr "SPLAT!"
+
+#: clients2c.cpp:1024
+msgid "HEADSHOT!"
+msgstr "HEADSHOT!"
+
+#: clients2c.cpp:1025
+msgid "Kill Confirmed"
+msgstr "Uccisione Confermata"
+
+#: clients2c.cpp:1026
+msgid "Kill Denied"
+msgstr "Uccisione Negata"
+
+#: clients2c.cpp:1027
+msgid "Healed Self"
+msgstr "Curatosi da sè"
+
+#: clients2c.cpp:1028
+msgid "Healed Teammate"
+msgstr "Compagno di Squadra Curato"
+
+#: clients2c.cpp:1029
+#, c-format
+msgid "%c3Healed Enemy"
+msgstr "%c3Nemico Curato"
+
+#: clients2c.cpp:1030
+msgid "Prevented Bleedout!"
+msgstr "Carneficina Sventata!"
+
+#: clients2c.cpp:1031
+msgid "Teammate saved you!"
+msgstr "Un Compagno di Squadra ti ha salvato!"
+
+#: clients2c.cpp:1032
+#, c-format
+msgid "%c0You won!"
+msgstr "%c0Hai vinto!"
+
+#: clients2c.cpp:1033
+#, c-format
+msgid "%c1Your team wins!"
+msgstr "%c1La tua squadra ha vinto!"
+
+#: clients2c.cpp:1034
+#, c-format
+msgid "%c3You lost!"
+msgstr "%c3Hai perso!"
+
+#: clients2c.cpp:1035
+#, c-format
+msgid "%c1Domination bonus"
+msgstr "%c1Bonus dominazione"
+
+#: clients2c.cpp:1036
+#, c-format
+msgid "%c0Flag secured!"
+msgstr "%c0Bandiera al sicuro!"
+
+#: clients2c.cpp:1037
+#, c-format
+msgid "%c3Flag overthrown!"
+msgstr "%c3Bandiera rovesciata!"
+
+#: clients2c.cpp:1038
+#, c-format
+msgid "%c0Buzzkill!"
+msgstr "%cDisturbatore!"
+
+#: clients2c.cpp:1039
+#, c-format
+msgid "%c3Buzzkilled!"
+msgstr "%c3Disturbato!"
+
+#: clients2c.cpp:1040
+#, c-format
+msgid "%c1Got own tags!"
+msgstr "%c1Etichette ottenute!"
+
+#: clients2c.cpp:1041
+#, c-format
+msgid "%c3Kill Denied"
+msgstr "%c3Vietato Uccidere"
+
+#: clients2c.cpp:1223
+#, c-format
+msgid "%s changed the water-level to %d"
+msgstr "%s ha cambiato il livello dell'acqua a %d"
+
+#: clients2c.cpp:1233
+#, c-format
+msgid "%s enlarged the map to size %d"
+msgstr "%s ha allargato la dimensione della mappa a %d"
+
+#: clients2c.cpp:1233
+#, c-format
+msgid "%s started a new map of size %d"
+msgstr "%s ha creato una nuova mappa di dimensioni %d"
+
+#: clients2c.cpp:1382
+msgid "the round is over! next round in 5 seconds..."
+msgstr "la sfida e' terminata! prossima sfida in 5 secondi..."
+
+#: clients2c.cpp:1385
+#, c-format
+msgid "%c3everyone died; epic fail!"
+msgstr "%c3tutti morti; epic fail!"
+
+#: clients2c.cpp:1387
+msgid "the bots have won the round!"
+msgstr "i bot hanno vinto la sfida!"
+
+#: clients2c.cpp:1394
+msgid "your team is the victor!"
+msgstr "la tua squadra è la vincitrice"
+
+#: clients2c.cpp:1396
+msgid "your team was dominated!"
+msgstr "la tua squadra è stata soggiogata!"
+
+#: clients2c.cpp:1399
+msgid "you are the victor!"
+msgstr "sei il vincitore!"
+
+#: clients2c.cpp:1400
+#, c-format
+msgid "%s is the victor!"
+msgstr "%s è il vincitore!"
+
+#: clients2c.cpp:1410
+#, c-format
+msgid "%c0the humans have prevailed!"
+msgstr "%c0gli umani hanno prevalso!"
+
+#: clients2c.cpp:1411
+#, c-format
+msgid "%c2Get ready for wave %c1%d%c4; %c0the humans held off the zombies!"
+msgstr ""
+"%c2Preparati per l'ondata %c1%d%c4; %c0gli umani hanno respinto gli zombie!"
+
+#: clients2c.cpp:1412
+#, c-format
+msgid "%c2Get ready for wave %c1%d%c4; %c3the zombies have overrun the humans!"
+msgstr ""
+"%c2Preparati per l'ondata %c1%d%c4; %c3gli zombie hanno calpestato gli umani!"
+
+#: clients2c.cpp:1419
+#, c-format
+msgid "%c1%cbeveryone has been converted!"
+msgstr "%c1%cbsono stati tutti convertiti!"
+
+#: clients2c.cpp:1443
+#, c-format
+msgid "%s %s %s access"
+msgstr "%s %s %s accesso"
+
+#: clients2c.cpp:1443
+msgid "claimed"
+msgstr "richiesto"
+
+#: clients2c.cpp:1443
+msgid "relinquished"
+msgstr "abbandonato"
+
+#: clients2c.cpp:1446
+#, c-format
+msgid "you already have %s access"
+msgstr "hai già accesso a %s "
+
+#: clients2c.cpp:1447
+#, c-format
+msgid "there is already another %s (%s)"
+msgstr "c'è già un altro %s (%s)"
+
+#: clients2c.cpp:1450
+#, c-format
+msgid "%c2this password is not privileged; it is a deban password!"
+msgstr "%c2questa password è sconsigliata; è una password per deban!"
+
+#: clients2c.cpp:1536
+#, c-format
+msgid "%c3you were forced into this team by a vote and may not switch"
+msgstr ""
+"%c3sei stato inserito in questa squadra per votazione e non puoi cambiare"
+
+#: clients2c.cpp:1537
+#, c-format
+msgid "%c3you may not switch teams in this mode!"
+msgstr "%c3non puoi cambiare squadre in questa modalità!"
+
+#: clients2c.cpp:1538
+#, c-format
+msgid "%c3match team size is set -- cannot switch sides"
+msgstr "%c3dimensione della squadra fissata -- non puoi cambiare"
+
+#: clients2c.cpp:1539
+#, c-format
+msgid "%cteam %s is full!"
+msgstr "%csquadra %s al completo!"
+
+#: clients2c.cpp:1553
+#, c-format
+msgid "%c1you %c2did not switch teams"
+msgstr "%c1tu %c2non hai cambiato squadra"
+
+#: clients2c.cpp:1554
+#, c-format
+msgid "%c2%s did not switch teams"
+msgstr "%c2%s non ha cambiato squadra"
+
+#: clients2c.cpp:1557
+#, c-format
+msgid "%c1you %c2stay in team %s"
+msgstr "%c1tu %c2rimani nella squadra %s"
+
+#: clients2c.cpp:1558
+#, c-format
+msgid "%c2%s stays on team %s"
+msgstr "%c2%s rimane nella squadra %s"
+
+#: clients2c.cpp:1567
+#, c-format
+msgid "%c1you %c2are now in team %s"
+msgstr "%c1tu %c2ora sei nella squadra %s"
+
+#: clients2c.cpp:1568
+#, c-format
+msgid "%c2%s switched to team %s"
+msgstr "%c2%s si è unito alla squadra %s"
+
+#: clients2c.cpp:1571
+#, c-format
+msgid "%c2the server %c1forced you %c2to team %s"
+msgstr "%c2il server %c1ti ha assegnato %c2alla squadra %s"
+
+#: clients2c.cpp:1572
+#, c-format
+msgid "%c2the server forced %s to team %s"
+msgstr "%c2il server ha assegnato %s alla squadra %s"
+
+#: clients2c.cpp:1684
+#, c-format
+msgid "vote %c0passed"
+msgstr "votazione %c0superata"
+
+#: clients2c.cpp:1684
+#, c-format
+msgid "vote %c3failed"
+msgstr "votazione %c3fallita"
+
+#: clients2c.cpp:1703
+#, c-format
+msgid "%s requests whois on %s"
+msgstr "%s richiesto whois su %s"
+
+#: clients2c.cpp:1722
+#, c-format
+msgid "whois on %s returned %s:%d"
+msgstr "whois su %s ha ritornato %s:%d"
+
+#: clients2c.cpp:1724
+#, c-format
+msgid "this user is authed as '%s'"
+msgstr "questo utente è autenticato come '%s'"
+
+#: clients2c.cpp:1726
+msgid "this user is not authed"
+msgstr "questo utente non è autenticato"
+
+#: clients2c.cpp:1734
+msgid "no demos available"
+msgstr "nessuna demo disponibile"
+
+#: clients2c.cpp:1873
+#, c-format
+msgid "failed writing to \"%s\""
+msgstr "scrittura fallita su \"%s\""
+
+#: clients2c.cpp:1876
+#, c-format
+msgid "received demo \"%s\""
+msgstr "demo \"%s\" ricevuta"
+
+#: clients2c.cpp:1885
+#, c-format
+msgid "received map \"%s\" from server, reloading.."
+msgstr "mappa  \"%s\" ricevuta dal server, aggiornamento.."
+
+#: clients2c.cpp:1892
+#, c-format
+msgid "map %s is too large to receive"
+msgstr "la mappa %s è troppo grande da trasferire"
+
+#: md2.h:258
+#, c-format
+msgid "could not load model skin for %s"
+msgstr "impossibile caricare modello aspetto per %s"
+
+#: menus.cfg:84
+msgid "Thank you to everyone participating to help us make"
+msgstr "Grazie a tutti per aver contribuito a rendere"
+
+#: menus.cfg:85
+msgid "AssaultCube Reloaded what it is today. To learn about"
+msgstr "AssaultCube Reloaded ciò che è oggi. Per saperne di più"
+
+#: menus.cfg:86
+msgid "the team, the AssaultCube Reloaded Task Force, read this:"
+msgstr "sul team, la AssaultCube Reloaded Task Force, leggi qui:"
+
+#: menus.cfg:89
+msgid "AssaultCube Reloaded is a modification of AssaultCube:"
+msgstr "AssaultCube Reloaded è una modifica di AssaultCube:"
+
+#: menus.cfg:92
+msgid "AssaultCube is a total-conversion of the CUBE engine"
+msgstr "AssaultCube è una conversione totale del motore CUBE"
+
+#: menus.cfg:93
+msgid "by Wouter 'Aardappel' van Oortmerssen, and others:"
+msgstr "creato da Wouter 'Aardappel' van Oortmerssen, e altri:"
+
+#: menus.cpp:1485
+msgid "..restart AssaultCube Reloaded for this setting to take effect"
+msgstr "..riavvia AssaultCube Reloaded per applicare questa impostazione"
+
+#: physics.cpp:1120
+#, c-format
+msgid "can't find entity spawn spot! (%d, %d)"
+msgstr "impossibile trovare entità punto di riarmo! (%d, %d)"
+
+#: rendermodel.cpp:159
+#, c-format
+msgid "failed to load model %s"
+msgstr "caricamento del modello %s fallito"
+
+#: server.h:707
+msgid "Knife"
+msgstr "Coltello"
+
+#: server.h:708
+msgid "USP"
+msgstr "USP"
+
+#: server.h:709
+msgid "M1014"
+msgstr "M1014"
+
+#: server.h:710
+msgid "MP5"
+msgstr "MP5"
+
+#: server.h:711
+msgid "M21"
+msgstr "M21"
+
+#: server.h:712
+msgid "M16A3"
+msgstr "M16A3"
+
+#: server.h:713
+msgid "M67"
+msgstr "M67"
+
+#: server.h:714
+msgid "Akimbo"
+msgstr "Akimbo"
+
+#: server.h:715
+msgid "Intervention"
+msgstr "Assalto"
+
+#: server.h:716
+msgid "Heal"
+msgstr "Salute"
+
+#: server.h:717
+msgid "Sword"
+msgstr "Lama"
+
+#: server.h:718
+msgid "RPG-7"
+msgstr "RPG-7"
+
+#: server.h:719
+msgid "AK-47"
+msgstr "AK-47"
+
+#: server.h:720
+msgid "M82"
+msgstr "M82"
+
+#: server.h:721
+msgid "MK12"
+msgstr "MK12"
+
+#: server.h:722
+msgid "M1911"
+msgstr "M1911"
+
+#: server.h:733
+msgid "K"
+msgstr "K"
+
+#: server.h:735
+msgid "Bot"
+msgstr "Bot"
+
+#: server.h:737
+msgid "Spawn"
+msgstr "Riarmo"
+
+#: server.h:739
+msgid "FF"
+msgstr "FF"
+
+#: server.h:741
+msgid "Drown"
+msgstr "Annegamento"
+
+#: server.h:743
+msgid "hax"
+msgstr "hax\t"
+
+#: server.h:745
+msgid "Splash"
+msgstr "Splash"
+
+#: server.h:747
+msgid "Fall"
+msgstr "Caduta"
+
+#: server.h:749 server.h:784
+msgid "Nuke"
+msgstr "Esplosione"
+
+#: server.h:752
+msgid "Team"
+msgstr "Squadra"
+
+#: server.h:754
+msgid "Spect"
+msgstr "Spettatore"
+
+#: server.h:757 server.h:788
+msgid "Revive"
+msgstr "Risorgi"
+
+#: server.h:768
+msgid "Throwing Knife"
+msgstr "Lancio Coltello"
+
+#: server.h:770
+msgid "Bleed"
+msgstr "Sanguina"
+
+#: server.h:773
+msgid "RPG Impact"
+msgstr "Impatto RPG"
+
+#: server.h:775
+msgid "RPG Direct"
+msgstr "RPG Direct"
+
+#: server.h:779
+msgid "Airstrike"
+msgstr "Attacco Aereo"
+
+#: server.h:782
+msgid "Jump"
+msgstr "Salto"
+
+#: server.h:790
+msgid "Juggernaut"
+msgstr "Supremazia"
+
+#: serverbrowser.cpp:1177
+#, c-format
+msgid ""
+"server \"%cs%s%cr\" is in category '%cs%s%cr' because of key '%s', please "
+"remove manually"
+msgstr ""
+"il server \"%cs%s%cr\" è nella categoria '%cs%s%cr' a causa della chiave "
+"'%s', per favore rimuovere manualmente"
+
+#: serverbrowser.cpp:1181
+#, c-format
+msgid ""
+"removing server \"%cs%s%cr\" from favourites category '%cs%s%cr' (rest '%s')"
+msgstr "rimozione server \"%cs%s%cr\" dalla categoria '%cs%s%cr' (rest '%s')"
+
+#: serverbrowser.cpp:1196
+#, c-format
+msgid "adding server \"%cs%s%cr\" to favourites category '%cs%s%cr' (new '%s')"
+msgstr "aggiunta server \"%cs%s%cr\" alla categoria '%cs%s%cr' (nuovo '%s')"
+
+#: weapon.cpp:483
+msgid "Your accuracy has been reset."
+msgstr "La tua precisione è stata impostata."
