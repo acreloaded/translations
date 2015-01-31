@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Italian Language ACR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-31 17:53+0100\n"
-"PO-Revision-Date: 2015-01-31 20:33+0100\n"
+"PO-Revision-Date: 2015-01-31 20:42+0100\n"
 "Last-Translator: M0Rf30 <morf3089@gmail.com>\n"
 "Language-Team:  <morf3089@gmail.com>\n"
 "Language: it_IT\n"
@@ -24,10 +24,10 @@ msgstr "operazione non disponibile in multiplayer"
 
 #: client.cpp:28
 msgid ""
-"editing in multiplayer requires coopedit mode (/coop or /mode 1) or /"
-"edithack 1"
+"editing in multiplayer requires coopedit mode (/coop or /mode 1) or /edithack "
+"1"
 msgstr ""
-"editing in multiplayer richiede modialità editing cooperativo (/coop o /mode "
+"editing in multiplayer richiede modialita' editing cooperativo (/coop o /mode "
 "1) o /edithack 1"
 
 #: client.cpp:70 client.cpp:186
@@ -91,10 +91,9 @@ msgstr "%c3errore di rete del server, disconnessione (%s) .."
 #: client.cpp:732
 #, c-format
 msgid ""
-"%c3map %c4%s%c3 is secured, this means you CAN'T send, receive or overwrite "
-"it"
+"%c3map %c4%s%c3 is secured, this means you CAN'T send, receive or overwrite it"
 msgstr ""
-"%c3mappa %c4%s%c3 protetta, ciò significa che NON PUOI inviarla, ottenerla o "
+"%c3mappa %c4%s%c3 protetta, cio' significa che NON PUOI inviarla, ottenerla o "
 "sovrascriverla"
 
 #: client.cpp:735
@@ -196,7 +195,7 @@ msgstr "giocatori ignorati: %s"
 
 #: clientgame.cpp:154
 msgid "no players were ignored."
-msgstr "nessuno giocatore è stato ignorato."
+msgstr "nessuno giocatore e' stato ignorato."
 
 #: clientgame.cpp:173
 #, c-format
@@ -205,18 +204,18 @@ msgstr "giocatori limitati: %s"
 
 #: clientgame.cpp:174
 msgid "no players were muted."
-msgstr "nessun giocatore è stato limitato."
+msgstr "nessun giocatore e' stato limitato."
 
 #: clientgame.cpp:205
 #, c-format
 msgid "your name is: %s"
-msgstr "il tuo nome è: %s"
+msgstr "il tuo nome e': %s"
 
 #: clientgame.cpp:227
 #, c-format
 msgid "%c3\"%s\" is not a valid team name (try CLA, RVSF or SPECTATOR)"
 msgstr ""
-"%c3\"%s\" non è un nome di squadra valido (prova CLA, RVSF o SPECTATOR)"
+"%c3\"%s\" non e' un nome di squadra valido (prova CLA, RVSF o SPECTATOR)"
 
 #: clientgame.cpp:228
 msgid "you can't change team while editing"
@@ -225,7 +224,7 @@ msgstr "non puoi cambiare squadra durante l'editing"
 #: clientgame.cpp:231
 #, c-format
 msgid "your team is: %s"
-msgstr "la tua squadra è: %s"
+msgstr "la tua squadra e': %s"
 
 #: clientgame.cpp:275
 msgid "not playing a demo"
@@ -253,7 +252,7 @@ msgstr "intervallo:"
 
 #: clientgame.cpp:1015
 msgid "game has ended!"
-msgstr "il gioco è terminato!"
+msgstr "il gioco e' terminato!"
 
 #: clientgame.cpp:1029
 #, c-format
@@ -263,7 +262,7 @@ msgstr "tempo rimanente: %d minuti"
 #: clientgame.cpp:1094
 #, c-format
 msgid "%c3invalid ctf-flag entity (%i as %d)"
-msgstr "%c3entità ctf-flag non valida (%i as %d)"
+msgstr "%c3entita' ctf-flag non valida (%i as %d)"
 
 #: clientgame.cpp:1190
 msgid ""
@@ -276,7 +275,7 @@ msgstr ""
 #: clientgame.cpp:1205
 #, c-format
 msgid "game mode is \"%s\"%s"
-msgstr "modalità gioco: \"%s\"%s"
+msgstr "modalita' gioco: \"%s\"%s"
 
 #: clientgame.cpp:1503
 #, c-format
@@ -314,11 +313,11 @@ msgstr "differente"
 
 #: clients2c.cpp:69
 msgid "newer"
-msgstr "più recente"
+msgstr "piu' recente"
 
 #: clients2c.cpp:69
 msgid "older"
-msgstr "più vecchia"
+msgstr "piu' vecchia"
 
 #: clients2c.cpp:359
 #, c-format
@@ -330,7 +329,7 @@ msgstr ""
 
 #: clients2c.cpp:367
 msgid "INFO: this server is password protected"
-msgstr "INFO: questo server è protetto da password"
+msgstr "INFO: questo server e' protetto da password"
 
 #: clients2c.cpp:516
 #, c-format
@@ -340,7 +339,7 @@ msgstr "%c3per favore %c1ottieni mappa %c2scrivendo %c0/getmap"
 #: clients2c.cpp:527
 #, c-format
 msgid "%s is now known as %s"
-msgstr "%s è conosciuto come %s"
+msgstr "%s e' conosciuto come %s"
 
 #: clients2c.cpp:580
 #, c-format
@@ -350,7 +349,7 @@ msgstr "connesso: %s"
 #: clients2c.cpp:581
 #, c-format
 msgid "%s %c0joined %c2the %c1game"
-msgstr "%s %c0si è unito %c2al %c1gioco"
+msgstr "%s %c0si e' unito %c2al %c1gioco"
 
 #: clients2c.cpp:645
 #, c-format
@@ -392,7 +391,7 @@ msgstr "Uccisione Negata"
 
 #: clients2c.cpp:1027
 msgid "Healed Self"
-msgstr "Curatosi da sè"
+msgstr "Curatosi da se'"
 
 #: clients2c.cpp:1028
 msgid "Healed Teammate"
@@ -491,11 +490,11 @@ msgstr "i bot hanno vinto la sfida!"
 
 #: clients2c.cpp:1394
 msgid "your team is the victor!"
-msgstr "la tua squadra è la vincitrice"
+msgstr "la tua squadra e' la vincitrice"
 
 #: clients2c.cpp:1396
 msgid "your team was dominated!"
-msgstr "la tua squadra è stata soggiogata!"
+msgstr "la tua squadra e' stata soggiogata!"
 
 #: clients2c.cpp:1399
 msgid "you are the victor!"
@@ -504,7 +503,7 @@ msgstr "sei il vincitore!"
 #: clients2c.cpp:1400
 #, c-format
 msgid "%s is the victor!"
-msgstr "%s è il vincitore!"
+msgstr "%s e' il vincitore!"
 
 #: clients2c.cpp:1410
 #, c-format
@@ -544,17 +543,17 @@ msgstr "abbandonato"
 #: clients2c.cpp:1446
 #, c-format
 msgid "you already have %s access"
-msgstr "hai già accesso a %s "
+msgstr "hai gia' accesso a %s "
 
 #: clients2c.cpp:1447
 #, c-format
 msgid "there is already another %s (%s)"
-msgstr "c'è già un altro %s (%s)"
+msgstr "c'e' gia' un altro %s (%s)"
 
 #: clients2c.cpp:1450
 #, c-format
 msgid "%c2this password is not privileged; it is a deban password!"
-msgstr "%c2questa password è sconsigliata; è una password per deban!"
+msgstr "%c2questa password e' sconsigliata; e' una password per deban!"
 
 #: clients2c.cpp:1536
 #, c-format
@@ -565,7 +564,7 @@ msgstr ""
 #: clients2c.cpp:1537
 #, c-format
 msgid "%c3you may not switch teams in this mode!"
-msgstr "%c3non puoi cambiare squadre in questa modalità!"
+msgstr "%c3non puoi cambiare squadre in questa modalita'!"
 
 #: clients2c.cpp:1538
 #, c-format
@@ -605,7 +604,7 @@ msgstr "%c1tu %c2ora sei nella squadra %s"
 #: clients2c.cpp:1568
 #, c-format
 msgid "%c2%s switched to team %s"
-msgstr "%c2%s si è unito alla squadra %s"
+msgstr "%c2%s si e' unito alla squadra %s"
 
 #: clients2c.cpp:1571
 #, c-format
@@ -640,11 +639,11 @@ msgstr "whois su %s ha ritornato %s:%d"
 #: clients2c.cpp:1724
 #, c-format
 msgid "this user is authed as '%s'"
-msgstr "questo utente è autenticato come '%s'"
+msgstr "questo utente e' autenticato come '%s'"
 
 #: clients2c.cpp:1726
 msgid "this user is not authed"
-msgstr "questo utente non è autenticato"
+msgstr "questo utente non e' autenticato"
 
 #: clients2c.cpp:1734
 msgid "no demos available"
@@ -668,7 +667,7 @@ msgstr "mappa  \"%s\" ricevuta dal server, aggiornamento.."
 #: clients2c.cpp:1892
 #, c-format
 msgid "map %s is too large to receive"
-msgstr "la mappa %s è troppo grande da trasferire"
+msgstr "la mappa %s e' troppo grande da trasferire"
 
 #: md2.h:258
 #, c-format
@@ -681,7 +680,7 @@ msgstr "Grazie a tutti per aver contribuito a rendere"
 
 #: menus.cfg:85
 msgid "AssaultCube Reloaded what it is today. To learn about"
-msgstr "AssaultCube Reloaded ciò che è oggi. Per saperne di più"
+msgstr "AssaultCube Reloaded cio' che e' oggi. Per saperne di piu'"
 
 #: menus.cfg:86
 msgid "the team, the AssaultCube Reloaded Task Force, read this:"
@@ -689,11 +688,11 @@ msgstr "sul team, la AssaultCube Reloaded Task Force, leggi qui:"
 
 #: menus.cfg:89
 msgid "AssaultCube Reloaded is a modification of AssaultCube:"
-msgstr "AssaultCube Reloaded è una modifica di AssaultCube:"
+msgstr "AssaultCube Reloaded e' una modifica di AssaultCube:"
 
 #: menus.cfg:92
 msgid "AssaultCube is a total-conversion of the CUBE engine"
-msgstr "AssaultCube è una conversione totale del motore CUBE"
+msgstr "AssaultCube e' una conversione totale del motore CUBE"
 
 #: menus.cfg:93
 msgid "by Wouter 'Aardappel' van Oortmerssen, and others:"
@@ -706,7 +705,7 @@ msgstr "..riavvia AssaultCube Reloaded per applicare questa impostazione"
 #: physics.cpp:1120
 #, c-format
 msgid "can't find entity spawn spot! (%d, %d)"
-msgstr "impossibile trovare entità punto di riarmo! (%d, %d)"
+msgstr "impossibile trovare entita' punto di riarmo! (%d, %d)"
 
 #: rendermodel.cpp:159
 #, c-format
@@ -859,7 +858,7 @@ msgid ""
 "server \"%cs%s%cr\" is in category '%cs%s%cr' because of key '%s', please "
 "remove manually"
 msgstr ""
-"il server \"%cs%s%cr\" è nella categoria '%cs%s%cr' a causa della chiave "
+"il server \"%cs%s%cr\" e' nella categoria '%cs%s%cr' a causa della chiave "
 "'%s', per favore rimuovere manualmente"
 
 #: serverbrowser.cpp:1181
@@ -875,4 +874,4 @@ msgstr "aggiunta server \"%cs%s%cr\" alla categoria '%cs%s%cr' (nuovo '%s')"
 
 #: weapon.cpp:483
 msgid "Your accuracy has been reset."
-msgstr "La tua precisione è stata impostata."
+msgstr "La tua precisione e' stata impostata."
