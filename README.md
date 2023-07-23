@@ -1,6 +1,6 @@
 This project translates AssaultCube Reloaded!
 
-AssaultCube Reloaded: http://code.google.com/p/assaultcuber/
+AssaultCube Reloaded: https://github.com/acreloaded/acr
 
 Current translations (ISO 639-1):
 
@@ -8,6 +8,4 @@ Current translations (ISO 639-1):
 - de - German - wr.23 - Fubizz - not released yet?
 - it - Italian - morf3089 - M0RF30
 
-Note: Released downloads are usually formatted as:
-
-(lang)-(major).(minor).(revision), where (lang) refers to the language code, like "en", and the next 3 refer to the **minimum game version that supports the file**.
+Note: Released downloads are usually named `(lang)-(major).(minor).(revision)`, where (lang) refers to the language code, like "en", and the next three refer to the **minimum game version that supports the file**.
